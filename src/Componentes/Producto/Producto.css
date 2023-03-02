@@ -1,0 +1,37 @@
+.Producto {
+    flex: 33%;
+    padding: 5px;
+    color: rgb(245, 174, 32);
+}
+
+.titulo {
+    color: black;
+}
+
+strong  {
+    font-size: x-large;
+    font-style:oblique;
+}
+
+.item-info  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 25px;
+}
+
+.carritoAdd {
+    padding-top: 20px;
+}
+
+.ViewProd   {
+    padding-top: 12px;
+}
+
+@media (max-width: 720px)   {
+    .Producto {
+        flex: 100%;
+    }
+}
+

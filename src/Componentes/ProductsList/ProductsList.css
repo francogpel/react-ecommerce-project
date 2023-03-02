@@ -1,0 +1,6 @@
+.Productslist   {
+    display: flex;
+    padding: 0px 2px;
+    flex-wrap: wrap;
+    background-color: white;
+}

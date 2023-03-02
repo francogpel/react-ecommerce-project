@@ -1,0 +1,53 @@
+/* HEADER */
+header  {
+    width: 25%;
+    background-image: linear-gradient(rgb(148 132 231) 75% ,#fbb710 );
+    height: auto;
+  }
+  
+  .navBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 50px 0px;
+  }
+  
+  a:hover  {
+    cursor: pointer;
+    color: rgb(255, 196, 0);
+  }
+  
+  .navOption  {
+    margin: 20px 0px;
+    list-style-type: none;
+  }
+  
+  .logoPet  {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carrito  {
+    width: 100%;
+  }
+  
+  .navList  {
+    text-align: center;
+    margin-left: -40px;
+  }
+  
+  .row  {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .productos    {
+    display: flex;
+    flex-direction: row;
+  }

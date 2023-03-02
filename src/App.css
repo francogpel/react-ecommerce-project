@@ -1,35 +1,12 @@
 /* HEADER */
-header  {
-  width: 20%;
-  background-color: blueviolet;
-  height: 100vh;
-}
-
-.navBar {
+.row  {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
 }
-
-a {
-  text-decoration: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: white;
-  margin: 50px 0px;
+/* MAIN */
+main  {
+  width: 75%;
+  background-color: rgb(245, 174, 32);
+  display: flex;
+  flex-direction: row;
 }
-
-.navOption  {
-  margin: 20px 0px;
-  list-style-type: none;
-}
-
-.logoPet  {
-  width: 200px;
-  height: auto;
-}
-
-.navList  {
-  text-align: center;
-  margin-left: -30px;
-}
-

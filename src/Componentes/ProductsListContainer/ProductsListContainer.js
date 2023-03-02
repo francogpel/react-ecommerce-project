@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Productos } from './Productos.js';
+import { Productos } from '../Productos/Productos';
 import PRODUCTSLIST from '../ProductsList/ProductsList';
 
 const PRODUCTSLISTCONTAINER = () => {

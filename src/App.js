@@ -1,21 +1,22 @@
+import { Form } from 'react-router-dom';
+import './App.css'
 
-import './App.css';
-import logoPetShop from "./imagenes/logoPet.svg";
-import Carrito from "./imagenes/carrito.svg";
+import  {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home from './routes/home/home';
+import Shop from './routes/shop/shop';
+import ProductDetail from './routes/prodectDetail/productDetail';
+import Sucursal from './routes/sucursal/sucursal';
 
 function App() {
   return (
-   <header>
-    <nav className='navBar'>
-      <a href='#'><img className='logoPet' src={logoPetShop} alt='LogoPetShop'/></a>
-      <ul className='navList'>
-        <li className='navOption'><a href='#'>Home</a></li>
-        <li className='navOption'><a href='#'>Shop</a></li>
-        <li className='navOption'><a href='#'>Sucursal</a></li>
-      </ul>
-      <a href='#'><img className='carrito' src= {Carrito} alt='carrito'/></a>
-    </nav>
-    </header>
+   <BrowserRouter>
+   <Routes>
+    <Route exact path='/home' element={<Home/>}/>
+    <Route exact path='/shop' element={<Shop/>}/>
+    <Route exact path='/shop/:id' element={<ProductDetail/>}/>
+    <Route exact path='/sucursal' element={<Sucursal/>}/>
+   </Routes>
+   </BrowserRouter>
   );
 }
 
