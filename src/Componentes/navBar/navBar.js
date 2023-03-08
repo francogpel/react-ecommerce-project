@@ -8,13 +8,13 @@ import  {Link} from 'react-router-dom'
 const NavBar = () => {
     return (
         <nav className='navBar'>
-        <a href='#'><img className='logoPet' src={logoPetShop} alt='LogoPetShop'/></a>
+        <Link to='/home'><img className='logoPet' src={logoPetShop} alt='LogoPetShop'/></Link>
          <ul className='navList'>
           <li className='navOption'><Link to='/home'>Home</Link></li>
           <li className='navOption'><Link to='/shop'>Shop</Link></li>
           <li className='navOption'><Link to='/sucursal'>Sucursal</Link></li>
          </ul>
-        <a href='#'>< CartWidget /></a>
+        <a>< CartWidget /></a>
        </nav>
     );
   };

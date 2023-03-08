@@ -1,9 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './view.css';
 
+
 const View = () =>  {
+    
     return(
-        <div><button className="view">View</button></div>
+        <Link to={ '/shop/=id' }><button className="view">View</button></Link>
     );
 }
 

@@ -4,9 +4,10 @@ import './Producto.css';
 import Imagen from '../images/image';
 import AddCart from '../addCart/addCart';
 import View from '../view/view';
+import { Link } from 'react-router-dom';
 
 const PRODUCTO = ({ Producto }) => {
-  const { imagen, titulo, precio, detalles } = Producto;
+  const { imagen, titulo, precio, detalles, id } = Producto;
   return (
     <div className="Producto">
       <Imagen src={imagen} alt={titulo} />
@@ -18,7 +19,7 @@ const PRODUCTO = ({ Producto }) => {
       </div>
       <div>
         <div className='carritoAdd'><AddCart/></div>
-        <div className='ViewProd'><View/></div>
+        <Link to={id} className='ViewProd'><View/></Link>
       </div>
       </div>
     </div>
