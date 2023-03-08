@@ -26,7 +26,7 @@ function App () {
     <header><NavBar/></header>
    <main><Routes>
        {/* NavBar */}
-    <Route exact path='/home' element={<Home/>}/>
+    <Route exact path='/' element={<Home/>}/>
     <Route exact path='/shop' element={<Shop/>}/>
     <Route exact path='/sucursal' element={<Sucursal/>}/> 
 
