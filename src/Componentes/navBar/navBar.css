@@ -1,6 +1,6 @@
 /* HEADER */
 header  {
-    width: 25%;
+    width: 250px;
     background-image: linear-gradient(rgb(148 132 231) 75% ,#fbb710 );
     height: auto;
   }
@@ -32,6 +32,10 @@ header  {
     width: 100%;
     height: auto;
   }
+
+  .lp{
+    margin-top: 30px;
+  }
   
   .carrito  {
     width: 100%;
@@ -52,4 +56,12 @@ header  {
     flex-direction: row;
   }
 
-  
+  .fa-brands  {
+    margin: 0px 20px;
+    font-size: 22px;
+    }
+
+  .redes  {
+    display: flex;
+    flex-direction: row;
+  }

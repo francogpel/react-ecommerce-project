@@ -29,6 +29,10 @@ strong  {
     padding-top: 12px;
 }
 
+.detail-shop    {
+    display: none;
+}
+
 @media (max-width: 720px)   {
     .Producto {
         flex: 100%;

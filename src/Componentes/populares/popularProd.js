@@ -7,19 +7,19 @@ const PopularProducts = () => {
     return (
         <div className='populares'>
             <div className='column'>
-                <a><img alt='' src= {POPULARES.img1} /></a>
-                <a><img alt='' src= {POPULARES.img4} /></a>
-                <a><img alt='' src= {POPULARES.img7} /></a>
+                <><img alt='' src= {POPULARES.img1} /></>
+                <><img alt='' src= {POPULARES.img4} /></>
+                <><img alt='' src= {POPULARES.img7} /></>
             </div>
             <div className='column'>
-                <a><img alt='' src= {POPULARES.img2}  /></a>
-                <a><img alt='' src= {POPULARES.img5} /></a>
-                <a><img alt='' src= {POPULARES.img8} /></a>
+                <><img alt='' src= {POPULARES.img2}  /></>
+                <><img alt='' src= {POPULARES.img5} /></>
+                <><img alt='' src= {POPULARES.img8} /></>
             </div>
             <div className='column'>
-                <a><img alt='' src= {POPULARES.img3} /></a>
-                <a><img alt='' src= {POPULARES.img6} /></a>
-                <a><img alt='' src= {POPULARES.img9} /></a>
+                <><img alt='' src= {POPULARES.img3} /></>
+                <><img alt='' src= {POPULARES.img6} /></>
+                <><img alt='' src= {POPULARES.img9} /></>
             </div>
         </div>
     );

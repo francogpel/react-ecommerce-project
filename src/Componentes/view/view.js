@@ -6,7 +6,7 @@ import './view.css';
 const View = () =>  {
     
     return(
-        <Link to={ '/shop/=id' }><button className="view">View</button></Link>
+        <Link to={ '/shop/product/=id' }><button className="view">Detalles...</button></Link>
     );
 }
 

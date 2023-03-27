@@ -7,6 +7,8 @@ import img6 from './popularProduct/collar-adulto.png'
 import img7 from './popularProduct/tony.png'
 import img8 from './popularProduct/buzo-perro.png'
 import img9 from './popularProduct/perro-peludo.png'
+import img10 from './popularProduct/dej.png'
+import img11 from './popularProduct/ubi-huellita.png'
 
 export default  {
     'img1':img1,
@@ -17,5 +19,7 @@ export default  {
     'img6':img6,
     'img7':img7,
     'img8':img8,
-    'img9':img9
+    'img9':img9,
+    'img10':img10,
+    'img11':img11
 }

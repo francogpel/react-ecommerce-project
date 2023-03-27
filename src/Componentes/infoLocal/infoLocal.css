@@ -1,0 +1,65 @@
+.contain    {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right ,#fbb710 10%, pink, rgb(148 132 231));
+}
+
+.cont-1    {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-2    {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.FotoLocal  {
+    width: 90%;
+    margin: 5% 5%;
+    border-radius: 0.7em;
+}
+
+.nosotros   {
+    width: 90%;
+    margin: 5% 5%;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contacto   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.ubi {
+    width: 300px;
+}
+
+.ubi.heartbeat {
+    animation: heartbeat 2s ease-in-out infinite;
+  }
+  
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

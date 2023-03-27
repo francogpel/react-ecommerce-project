@@ -6,19 +6,22 @@ import AddCart from '../addCart/addCart';
 import View from '../view/view';
 import { Link } from 'react-router-dom';
 
+import { CartCountProvider } from '../../Context/cartCountContext';
+
+
 const PRODUCTO = ({ Producto }) => {
-  const { imagen, titulo, precio, detalles, id } = Producto;
+  const { imagen, titulo, precio, detalles, id} = Producto;
   return (
     <div className="Producto">
-      <Imagen src={imagen} alt={titulo} />
+      <Imagen className src={imagen} alt={titulo} />
       <div className='item-info'>
       <div>
       <p><strong>{precio}</strong></p>
       <h3 className='titulo'>{titulo}</h3>
-      <p>{detalles}</p>
+      <p className='detail-shop'>{detalles}</p>
       </div>
       <div>
-        <div className='carritoAdd'><AddCart/></div>
+      <CartCountProvider><div className='carritoAdd'><AddCart/></div></CartCountProvider> 
         <Link to={id} className='ViewProd'><View/></Link>
       </div>
       </div>
